@@ -1,0 +1,7 @@
+{
+  "name": "aDates",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
