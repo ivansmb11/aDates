@@ -1,22 +1,18 @@
 <template>
-  <ion-content>
+  <ion-page>
     <ion-router-outlet />
-  </ion-content>
+  </ion-page>
 </template>
 
 <script>
 
-import { IonContent, IonRouterOutlet } from '@ionic/vue';
+import { IonPage, IonRouterOutlet } from '@ionic/vue';
 
 export default {
   name: 'AuthLayout',
   components: {
-    IonContent,
+    IonPage,
     IonRouterOutlet
   }
 }
 </script>
-
-<style scoped>
-
-</style>
