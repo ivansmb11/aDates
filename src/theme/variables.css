@@ -3,6 +3,14 @@ http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
 :root {
+  /* anahuac */
+  --ion-color-anahuac: #FF8300;
+	--ion-color-anahuac-rgb: 255,131,0;
+	--ion-color-anahuac-contrast: #000000;
+	--ion-color-anahuac-contrast-rgb: 0,0,0;
+	--ion-color-anahuac-shade: #e07300;
+	--ion-color-anahuac-tint: #ff8f1a;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -74,6 +82,15 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+}
+
+.ion-color-anahuac {
+	--ion-color-base: var(--ion-color-anahuac);
+	--ion-color-base-rgb: var(--ion-color-anahuac-rgb);
+	--ion-color-contrast: var(--ion-color-anahuac-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-anahuac-contrast-rgb);
+	--ion-color-shade: var(--ion-color-anahuac-shade);
+	--ion-color-tint: var(--ion-color-anahuac-tint);
 }
 
 @media (prefers-color-scheme: dark) {
